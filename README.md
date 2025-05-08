@@ -1,6 +1,6 @@
-# extract\_pdf
+# extractpdf
 
-`extract_pdf` is a lightweight command-line tool that leverages [OCRmyPDF](https://github.com/ocrmypdf/ocrmypdf) to convert scanned or image-only PDFs into searchable, PDF/A‑2B–compliant documents and produce a plain-text sidecar file. It preserves the original layout and requires no elevated privileges when installed with the provided self-extracting installer.
+`extractpdf` is a lightweight command-line tool that leverages [OCRmyPDF](https://github.com/ocrmypdf/ocrmypdf) to convert scanned or image-only PDFs into searchable, PDF/A‑2B–compliant documents and produce a plain-text sidecar file. It preserves the original layout and requires no elevated privileges when installed with the provided self-extracting installer.
 
 ---
 
@@ -15,7 +15,7 @@
 
 ## 🚀 Quick Start (Using the Self-Extracting Installer)
 
-1. **Download** the latest release asset `extract_pdf_installer.run` from the [Releases page](https://github.com/yourusername/extract_pdf/releases).
+1. **Download** the latest release asset `v1.1.zip` from the [Releases page](https://github.com/HughStanway/extractpdf/releases/tag/v1.1) and unzip the file.
 2. **Make executable**:
 
    ```bash
@@ -27,11 +27,11 @@
    ./extract_pdf_installer.run
    ```
 
-   This copies the `extract_pdf` executable into `~/.local/bin` (fallback `~/bin`).
+   This copies the `extractpdf` executable into `~/.local/bin` (fallback `~/bin`).
 4. **Verify** that your `PATH` includes `~/.local/bin` or `~/bin`, then use:
 
    ```bash
-   extract_pdf input.pdf [output.txt]
+   extractpdf input.pdf [output.txt]
    ```
 
    * If `[output.txt]` is omitted, text is saved to `output.txt` in the current directory.
@@ -66,8 +66,8 @@
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/extract_pdf.git
-   cd extract_pdf
+   git clone https://github.com/HughStanway/extractpdf.git
+   cd extractpdf
    ```
 2. **Make scripts executable**:
 
@@ -79,7 +79,7 @@
    ```bash
    makeself --notemp . \
      extract_pdf_installer.run \
-     "extract_pdf Installer v1.0" \
+     "extractpdf Installer v1.0" \
      ./install.sh
    ```
 4. **Publish**: Tag your release (`git tag v1.0`), push, then upload `extract_pdf_installer.run` to GitHub Releases.
@@ -90,7 +90,7 @@
 
 ```plaintext
 .
-├── extract_pdf.sh    # OCRmyPDF wrapper script
+├── extractpdf.sh    # OCRmyPDF wrapper script
 ├── install.sh        # User-local installer
 └── README.md         # Project documentation
 ```
@@ -105,5 +105,5 @@ Contributions, issues, and feature requests are welcome! Please open an issue or
 
 ## 📄 License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
