@@ -7,8 +7,8 @@ if test "n" = n; then
     umask 077
 fi
 
-CRCsum="4048381557"
-MD5="b71b1e3b8c60e466fe1d67de02433c98"
+CRCsum="3673220286"
+MD5="fc5051c5eb6f460d36431d0e36a418cc"
 SHA="0000000000000000000000000000000000000000000000000000000000000000"
 SIGNATURE=""
 TMPROOT=${TMPDIR:=/tmp}
@@ -17,15 +17,15 @@ export USER_PWD
 ARCHIVE_DIR=`dirname "$0"`
 export ARCHIVE_DIR
 
-label="extract_pdf Installer v1.0"
+label="extractpdf Installer v1.0"
 script="./install.sh"
 scriptargs=""
 cleanup_script=""
 licensetxt=""
 helpheader=""
 targetdir="."
-filesizes="987"
-totalsize="987"
+filesizes="984"
+totalsize="984"
 keep="y"
 nooverwrite="n"
 quiet="n"
@@ -376,13 +376,13 @@ do
 	if test x"n" != x""; then
 	    echo Encryption: n
 	fi
-	echo Date of packaging: Thu May  8 10:59:17 BST 2025
+	echo Date of packaging: Thu May  8 11:17:04 BST 2025
 	echo Built with Makeself version 2.5.0
 	echo Build command was: "/opt/homebrew/bin/makeself \\
     \"--notemp\" \\
     \".\" \\
-    \"../extract_pdf_installer.run\" \\
-    \"extract_pdf Installer v1.0\" \\
+    \"extract_pdf_installer.run\" \\
+    \"extractpdf Installer v1.0\" \\
     \"./install.sh\""
 	if test x"$script" != x; then
 	    echo Script run after extraction:
@@ -713,7 +713,7 @@ if test x"$keep" = xn; then
     rm -rf "$tmpdir"
 fi
 eval $finish; exit $res
-‹ u€híVÍnÛFö™O1¦Õ(BCRÔO¨Ãv’²rŠcM.Å…¨]f¹”¬8rÉ-E/9-ÚSŸ¡Ïãh¡³KŠ’#èÅE[h.\.g¾ùÝoézôRI¨4ŒÜ,Þºi6›»Ý.˜çãâÙluŠ'Šÿ¸Û¿‹ñsÛï@ÓïvÚí-hný’gŠH%ÎG1.ùŒÌïÔÃoQôå$Q zþGdgÛË3é]0îQ>…’ÅVF84²”F„%–µûI"fàƒÐ"G™Å"xvmÇ'QøåÞ½«vF
-ÕÎ¾SnÐ `¿ÊÈˆö Ö„oOsåâÐíÁk‘+ý¢.Õ™­u/ÂY³¬þ‹ãWÃ'vÍ·u‡LŽ®2Ò€HÀ ¸àFlŠNVÂ¡oÖœŸôöˆÓ²-šdtuoéÜ6.µ‰€!¼<ÀñáSàdB-|9ÇÄ¸2A}¥c¿>Ôžß€Œp¦æNÓ`¬Ú†@L&„‡àLu'sT†{^H§Ï“äVŽ¤²·ÔäBA$rºÐç8ISF Ži+wÚu×†½­E[e:­†É„q%€@F‰br‘P“Û×¦˜Ž®¦B"€ˆ%mP'³ÔÑ»Oæ%Åf`ÌøÈ˜TÚESzø2“LQ4#ÎÞb%4º/‹nÉþùËçïas®¡|2Çˆn>üf[Uþ+A,]`“K —¦zQvÈ´¢Ý@÷©ª˜
-'[µ¹=•7?}„¡öP2¡X@}aP·×4OÖ8c*6ù9	™S	D¡eJ½š¶ÒüÇ_ÿøýx!Š‚Tîn>|6s‘ãTë“¡±Ýê0´M+ïåü»^9F÷EþƒÿÛ~wÁÿ»ÝÎ.òg·ãoøÿ_ÅÿË1œ×Š|Ê!>/~
-–y¯áà!Þï=7IôFÃœ¤[ÈòPXÖÉÁ Œä¾Ž`£«TÒˆ®?‚½] ïÀÂ5Ü|w4<?ìkf¿zöòùÑõŠ…]ýmpB<üWKåëU¸ÃÜ9!cŠáJªõ!$K°b*i…iü"›ë;ØåçO „×5¹âEP©b­ ö0…5ÚöK×¤YTßHçÖd2	Nz;kÑ	gú”­Æ²®ê­TYrIi‹»‰ÏÙƒ/Øh“ÒîyU™úšA]—33Tv¼?|æÂSzI&iB	Ã¢ƒ®5@1%oõºg—àºš½À“Sû´¦;³ÒÜ^¹S,µÖ©mßCnd#ÙÈÿSþZ¹ x   
+‹  „híVÍnÛFö™O1¦Õ(BCŠ”,P†í4:$1dåÆš\ŠQ»Ìr)Yqä’[‚\r*Z´§>CžÇ/>Bg—%nÑ‹‹¶Ð\¸\Î|ó»ßÒmÒ%I Ò0r³xã.Äó¼‡˜çNñôZÛÅÅßé´ÁïàGüÜö·Áó;Ûíöxÿ€ä™"C‰óaŒK>%³[õð[ýu’(P=ÿ#²µÙÌ3Ù<g¼IùÎI[UàÐ\@ÊR–XÖì%‰˜‚BBˆf‹à%Øµ-œDá—Sxó¦Ú*T;ýTL¹@ƒX€ý"#CÚ…šß3žæÊÅ¡Û…—"WúE]¨S[ë^0„³"fY½gG/ìšoë0˜]e,¤‘€pÁ)Ù,…C_­8?îîïõ§e[4ÉèòÞÂ¹m\j7Cx¾ß‡£ƒÇÀÉ˜Zør†/ˆqi‚úFÇ~u&©&<¿áLÍœ ¦ÁH´		Á™ êŽg¨÷v›!4yž$7
+t(¥Ý…&
+"‘óÐ…Ç	L˜0ulLX¹3×®»6ìÞkÍ+Ø*Ói5L&Œ+2Jd“ó„šÜ¾5Ått5D,¡hƒâ8Ùˆ¥ŽÞÅ€x23()60ƒ„#Æ‡Æ¤Ò.šÒÅ—©dŠ‚¤rö+i Ñ}Yt«Hö÷_>„~Î¹†Bðñ#º~÷›mUù/±pM.l\šnèEÙ!ÓŠvÝ§Bªb*œlÙææT^ÿôÚCÉ„:`õ¹AÝ^Ñ<^-à”©Øäç$dF%…–e(õjÚJóýúå<EA*w×ï>›‰™ÈqªõÉÐØnuÚ¦•wrþÝf9FwEþƒÿÛ¾_ð¿ïµZ¸öüí‡ÞÎšÿÿUü¿Ày­Ègåï¡ ™·îãEñ¶é&" ‰Þh˜£‚lY
+Ë:Þï÷ŽÛW lt”JÑUÛ¡¯sd˜ã[ƒ½þ‡ƒ³ƒžæõË'ÏŸ^-YØÅÁß'Ä£¹P¾Z>ÿ·aã‚9ÇdD1ZIµ>dd©–AL%­ð#_$su·üü`Ÿðº¦V¼*U,Ôî§Ó°±BÚ~é:” ‡ê›#éÌB&ÁIo&cÍûàŒAŸ±åXVU—þó"|6¿Xõœ]øsmQš=­êR_Ñ¯ëâ`^†ÆŽöO\xŒS@/È8Mè aXôÏÕc&(Fäµ^wí\B3·xtbŸÔt_–ZÛ-wŠ¥Ö:±í;bÇµ¬e-kùÿÊo.pú   
